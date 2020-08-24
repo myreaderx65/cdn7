@@ -1,0 +1,1344 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Junk Charts</title>
+
+    <meta name="generator" content="//www.typepad.com/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="kaiser fung, statistics, data analysis, analytics, graphics, visualization, infographics, tufte, design, business analytics, numbers rule your world, numbersense, big data, data science, Principal Analytics Prep" />
+        <meta name="description" content="Kaiser Fung; Junk Charts; Recycling chartjunk as junk art; Numbers Rule Your World; Numbersense; Principal Analytics Prep" />
+
+        <link rel="stylesheet" href="https://static.typepad.com/.shared/themes/common/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://static.typepad.com/.shared/css/responsive-banner.css">
+
+    <link rel="stylesheet" href="https://static.typepad.com/.shared/themes/common/bxslider.css">
+    <link rel="stylesheet" href="https://static.typepad.com/.shared/css/widgets.css">
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="https://junkcharts.typepad.com/junk_charts/styles.css?v=6" type="text/css" media="screen" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <link rel="canonical" href="https://junkcharts.typepad.com/junk_charts/" />
+
+        <link rel="alternate" type="application/atom+xml" title="Posts on 'Junk Charts' (Atom)" href="https://junkcharts.typepad.com/junk_charts/atom.xml" />
+        <link rel="alternate" type="application/rss+xml" title="Posts on 'Junk Charts' (RSS 1.0)" href="https://junkcharts.typepad.com/junk_charts/index.rdf" />
+        <link rel="alternate" type="application/rss+xml" title="Posts on 'Junk Charts' (RSS 2.0)" href="https://junkcharts.typepad.com/junk_charts/rss.xml" />
+
+        <script type="text/javascript">
+                var TPApp = {};
+                TPApp.app_uri = "//www.typepad.com/";
+        </script>
+        <script type="text/javascript" src="/.shared/js/yui/yahoo-dom-event.js,/js/app/thumbnail-gallery-min.js,/js/app/flyouts-min.js"></script>
+
+
+
+
+
+
+<script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Asap','Glegoo','Covered+By+Your+Grace' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })(); </script>
+
+
+<meta property="og:title" content="Junk Charts" />
+<meta property="og:site_name" content="Junk Charts" />
+<meta property="og:type" content="blog" />
+<meta property="og:url" content="https://junkcharts.typepad.com/junk_charts/" />
+<meta property="og:description" content="Kaiser Fung's blog. Recycling chartjunk as junk art. Data visualization criticism." />
+<meta property="fb:admins" content="" />
+<meta property="og:image" content="https://static.typepad.com/.shared/default-userpics/03-220si.gif" />
+
+
+
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-225723-36', 'auto', {'name': 'Typepad'}, {'allowLinker': true} );  // Separate tracker for Typepad.
+ga('Typepad.require', 'linker');
+ga('Typepad.linker:autoLink', ['none']);
+ga('Typepad.set', 'dimension1', '6a00d8341e992c53ef00d8341e9a0553ef');
+ga('Typepad.set', 'dimension2', 'index');
+ga('Typepad.send', 'pageview');
+</script>
+
+
+
+
+</head>
+<body id="top" class="three-column index fullposts">
+
+<div id="bannav-wrap">
+
+
+                <div id="st-container" class="st-container">
+			<nav class="st-menu st-effect-1 font-nav" id="menu-1">
+                                <button class="close-side-menu"><i class="fas fa-times"></i></button>
+                                <ul>
+
+        <li class="icon icon-data"><a href="https://junkcharts.typepad.com/junk_charts/2014/08/welcome.html">
+        
+        
+        
+        
+        Welcome</a></li>
+        <li class="icon icon-data"><a href="https://twitter.com/junkcharts">
+        
+        
+        
+        
+        Twitter</a></li>
+        <li class="icon icon-data"><a href="https://www.kaiserfung.com/">
+        
+        
+        
+        
+        About</a></li>
+        <li class="icon icon-data"><a href="https://junkcharts.typepad.com/numbersruleyourworld/">
+        
+        
+        
+        
+        Book Blog</a></li>
+        <li class="icon icon-data"><a href="https://junkcharts.typepad.com/junk_charts/atom.xml">
+        
+        
+        
+        
+        RSS</a></li>
+
+                                </ul>
+			</nav>
+                </div>
+
+
+
+   
+            <div id="icons-container" class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="content">
+
+
+<div class="type-text" style="display:none;" id="st-trigger-effects">
+                            <button data-effect="st-effect-1" class="menu-icon open-side-menu">
+                                <i class="fas fa-bars"></i>
+                            </button>
+</div>
+
+
+
+
+<!--navbar-->
+
+
+      <div class="navtext font-nav">
+
+      
+         <div class="navtitle font-nav">
+            <a href="https://junkcharts.typepad.com/junk_charts/">Junk Charts</a>
+         </div>
+      
+
+        <a class="nav-link" href="https://junkcharts.typepad.com/junk_charts/2014/08/welcome.html">Welcome</a>
+        <a class="nav-link" href="https://twitter.com/junkcharts">Twitter</a>
+        <a class="nav-link" href="https://www.kaiserfung.com/">About</a>
+        <a class="nav-link" href="https://junkcharts.typepad.com/numbersruleyourworld/">Book Blog</a>
+        <a class="nav-link" href="https://junkcharts.typepad.com/junk_charts/atom.xml">RSS</a>
+   </div>
+ 
+
+
+
+                        <div id="social" style="display:none;">
+                            <ul>
+
+<li><a class="icon circle fab fa-twitter solo" href="https://twitter.com/junkcharts" rel="me"></a></li>
+
+                            </ul>
+                        </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <header class="main">
+            <div id="banner-image-container" class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="content">
+                           <div id="banner"><a href="https://junkcharts.typepad.com/junk_charts/"><span>
+                           
+                           </span></a></div>
+                        </div>
+                    </div>
+                </div>
+             </div>
+        </header>
+
+
+
+</div>
+
+    <main id="post-container">
+
+
+
+
+
+        <div class="container">
+            <div class="row pagebody">
+
+                <div class="col-sm-8 col-md-6">
+
+                    <div class="left-container"><div class="left-container-inner">
+
+
+
+
+
+
+<!-- FEATURED POST -->
+
+<!-- REGULAR POSTS -->
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+<!-- entry shared -->
+
+<article class="post entry">
+
+
+
+<!-- DISPLAY FULL POSTS-->
+
+     
+
+       <h2 class="entry-header font-entryheader">
+           
+        <span class="entry-title">
+<a href="https://junkcharts.typepad.com/junk_charts/2020/08/deaths-as-percent-neither-of-cases-nor-of-population-deaths-as-percent-of-normal.html">Deaths as percent neither of cases nor of population. Deaths as percent of normal.</a>
+        </span>
+       </h2>
+
+
+
+       <h5 class="date-header font-dateheader">
+           <span class="entry-date"><a href="https://junkcharts.typepad.com/junk_charts/2020/08/deaths-as-percent-neither-of-cases-nor-of-population-deaths-as-percent-of-normal.html">Aug 18, 2020</a></span>
+       </h5>
+
+
+
+			<div class="entry-body font-entrybody">
+				<p>Yesterday, I posted a note about excess deaths on the book blog (<a href="%20https://junkcharts.typepad.com/numbersruleyourworld/2020/08/excess-deaths-reporting-delays-statistical-adjustments-misleading-headline.html " title="Link to book blog">link</a>). The post was inspired by a nice data visualization by the New York Times (<a href="https://www.nytimes.com/interactive/2020/08/12/us/covid-deaths-us.html" title="Link to New York Times">link</a>). This is a great example of data journalism.</p>
+<p><a class="asset-img-link" href="https://junkcharts.typepad.com/.a/6a00d8341e992c53ef026bde8abd0b200c-pi" style="display: inline;"><img alt="Nyt_excessdeaths_south" class="asset  asset-image at-xid-6a00d8341e992c53ef026bde8abd0b200c img-responsive" src="https://junkcharts.typepad.com/.a/6a00d8341e992c53ef026bde8abd0b200c-450wi" style="width: 420px;" title="Nyt_excessdeaths_south" /></a></p>
+<p>Excess deaths is a superior metric for measuring the effect of Covid-19 on public health. It&#39;s better than deaths as percent of cases. Also better than percent of the population.What excess deaths measure is deaths as a percent of normal. Normal is usually defined as the average deaths in the respective week in years past.</p>
+<p>The red areas indicate how far the deaths in the Southern states are above normal. The highest peak, registered in Texas in late July, is 60 percent above the normal level.</p>
+<p>***</p>
+<p>The best way to appreciate the effort that went into this graphic is to imagine receiving the outputs from the model that computes excess deaths. A three-column spreadsheet with columns &quot;state&quot;, &quot;week number&quot; and &quot;estimated excess deaths&quot;.</p>
+<p>The first issue is unequal population sizes. More populous states of course have higher death tolls. Transforming death tolls to an index pegged to the normal level solves this problem. To produce this index, we divide actual deaths by the normal level of deaths. So the spreadsheet must be augmented by two additional columns, showing the historical average deaths and actual deaths for each state for each week. Then, the excess death index can be computed.</p>
+<p>The journalist builds a story around the migration of the coronavirus between different regions as it rages across different states&#0160; during different weeks. To this end, the designer first divides the dataset into four regions (South, West, Midwest and Northeast). Within each region, the states must be <a href="https://junkcharts.typepad.com/junk_charts/sorting" title="Posts about order">ordered</a>. For each state, the week of peak excess deaths is identified, and the peak index is used to sort the states.</p>
+<p>The graphic utilizes a <a href="https://junkcharts.typepad.com/junk_charts/small_multiples" title="Posts about small multiples">small-multiples</a> framework. Time occupies the horizontal axis, by convention. The vertical axis is compressed so that the states are not too distant. For the same reason, the component graphs are allowed to overlap vertically. The benefit of the tight arrangement is clearer for the Northeast as those peaks are particularly tall. The space-saving appearance reminds me of sparklines, championed by Ed Tufte.</p>
+<p>There is one small tricky problem. In most of June, Texas suffered at least 50 percent more deaths than normal. The severity of this excess death toll is shortchanged by the low vertical height of each component graph. What forced such congestion is probably the data from the Northeast. For example, New York City:</p>
+<p><a class="asset-img-link" href="https://junkcharts.typepad.com/.a/6a00d8341e992c53ef026be40985c1200d-pi" style="display: inline;"><img alt="Nyt_excessdeaths_northeast3" class="asset  asset-image at-xid-6a00d8341e992c53ef026be40985c1200d img-responsive" src="https://junkcharts.typepad.com/.a/6a00d8341e992c53ef026be40985c1200d-350wi" style="width: 350px;" title="Nyt_excessdeaths_northeast3" /></a></p>
+<p>&#0160;</p>
+<p>New York City&#39;s death toll was almost 8 times the normal level at the start of the epidemic in the U.S. If the same vertical scale is maintained across the four regions, then the Northeastern states dwarf all else.</p>
+<p>***</p>
+<p>One key takeaway from the graphic for the Southern states is the persistence of the red areas. In each state, for almost every week of the entire pandemic period, actual deaths have exceeded the normal level. This is strong indication that the coronavirus is not under control.</p>
+<p>In fact, I&#39;d like to see a second set of plots showing the <strong>cumulative</strong> excess deaths since March. The weekly graphic is better for identifying the ebb and flow while the cumulative graphic takes measure of the total impact of Covid-19.</p>
+<p>***</p>
+<p>The above description leaves out a huge chunk of work related to computing excess deaths. I assumed the designer receives these estimates from a data scientist. See the related <a href="%20https://junkcharts.typepad.com/numbersruleyourworld/2020/08/excess-deaths-reporting-delays-statistical-adjustments-misleading-headline.html " title="Link to book blog">post</a> in which I explain how excess deaths are estimated from statistical models.</p>
+<p>&#0160;</p>
+			</div>
+			
+
+			
+
+
+
+
+
+<hr />
+
+
+<div class="entry-footer">
+          <p class="entry-footer-info font-entryfooter"><span class="post-footers">Posted on Aug 18, 2020 at 09:05 AM</span> <span class="separator">|</span> <a class="permalink" href="https://junkcharts.typepad.com/junk_charts/2020/08/deaths-as-percent-neither-of-cases-nor-of-population-deaths-as-percent-of-normal.html">Permalink</a>
+
+ 
+	<span class="separator"> | </span>
+	
+			 <a class="entry-comments" href="https://junkcharts.typepad.com/junk_charts/2020/08/deaths-as-percent-neither-of-cases-nor-of-population-deaths-as-percent-of-normal.html#comments">Comments (6)</a>
+	
+
+
+          </p>
+
+
+          <!-- technorati tags -->
+
+
+
+          <!-- post footer links -->
+	<p class="entry-footer-share entry-footer-share-buttons">
+		<span class="entry-footer-links-twitter">
+     <a href="https://twitter.com/share?url=https%3A%2F%2Fbit.ly%2F3201RLe&text=Deaths%20as%20percent%20neither%20of%20cases%20nor%20of%20population.%20Deaths%20as%20percent%20of%20normal." target="_blank"><i class="icon fab fa-twitter"></i></a>
+</span> <span class="separator">|</span> <span class="entry-footer-links-pinterest">
+     <a href="javascript:void((function()%7Bvar%20e=document.createElement('script');e.setAttribute('type','text/javascript');e.setAttribute('charset','UTF-8');e.setAttribute('src','https://assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);document.body.appendChild(e)%7D)());"><i class="icon fab fa-pinterest"></i></a>
+
+</span> <span class="separator">|</span> <span class="entry-footer-links-facebook_like">
+     
+     <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fjunkcharts.typepad.com%2Fjunk_charts%2F2020%2F08%2Fdeaths-as-percent-neither-of-cases-nor-of-population-deaths-as-percent-of-normal.html" target="_blank"><i class="icon fab fa-facebook"></i></a>
+     
+</span>
+	</p>
+
+
+</div>
+
+
+</article>
+ 
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+<!-- entry shared -->
+
+<article class="post entry">
+
+
+
+<!-- DISPLAY FULL POSTS-->
+
+     
+
+       <h2 class="entry-header font-entryheader">
+           
+        <span class="entry-title">
+<a href="https://junkcharts.typepad.com/junk_charts/2020/08/ask-how-you-can-give.html">Ask how you can give</a>
+        </span>
+       </h2>
+
+
+
+       <h5 class="date-header font-dateheader">
+           <span class="entry-date"><a href="https://junkcharts.typepad.com/junk_charts/2020/08/ask-how-you-can-give.html">Aug 12, 2020</a></span>
+       </h5>
+
+
+
+			<div class="entry-body font-entrybody">
+				<p>A reader and colleague Georgette A was frustrated with the following graphic that appeared in the otherwise commendable article in National Geographic (<a href="https://www.nationalgeographic.com/magazine/2020/08/how-devastating-pandemics-change-us-feature/" title="Link to National Geographic">link</a>). The NatGeo article provides a history lesson on past pandemics that killed millions.</p>
+<p><a class="asset-img-link" href="https://junkcharts.typepad.com/.a/6a00d8341e992c53ef026be407d437200d-pi" style="display: inline;"><img alt="Natgeo_pandemichistory" class="asset  asset-image at-xid-6a00d8341e992c53ef026be407d437200d img-responsive" src="https://junkcharts.typepad.com/.a/6a00d8341e992c53ef026be407d437200d-450wi" style="width: 420px;" title="Natgeo_pandemichistory" /></a></p>
+<p>What does the design want to convey to readers?</p>
+<p>Our attention is drawn to the larger objects, the red triangle on the left or the green triangle on the right. Regarding the red triangle, we learn that the base is the duration of the pandemic while the height of the black bar represents the total deaths.</p>
+<p>An immediate curiosity is why a green triangle is lodged in the middle of the red triangle. Answering this question requires figuring out the horizontal layout. Where we expect axis labels we find an unexpected series of numbers (0, 16, 48, 5, 2, 4, ...). These are durations that measure the widths of the triangular bases.</p>
+<p>To solve this puzzle, imagine the chart with the triangles removed, leaving just the black columns. Now replace the durations with index numbers, 1 to 13, corresponding to the time order of the ending years of these epidemics. In other words, there is a time axis hidden behind the chart. [As Ken reminded me on Twitter, I forgot to mention that details of each pandemic are revealed by hovering over each triangle.]</p>
+<p>This explains why the green triangle (Antonine Plague) is sitting inside the large red triangle (Plague of Justinian). The latter&#39;s duration is 3 times that of the former, and the Antonine Plague ended before the Plague of Justinian. In fact, the Antonine occurred during 165-180 while the Justinian happened during 541-588. The overlap is an invention of the design. To receive what the design gives, we have to think of time as a sequence, not of dates.</p>
+<p>***</p>
+<p>Now, compare the first and second red triangles. Their black columns both encode 50 million deaths. The Justinian Plague however was spread out over 48 years while the Black Death lasted just 5 years. This suggests that the Black Death was more fearsome than the Justinian Plague. And yet, the graphic presents the opposite imagery.</p>
+<p>This is a pretty tough dataset to visualize. Here is a side-by-side <a href="https://junkcharts.typepad.com/junk_charts/bar_chart" title="Posts about bar charts">bar chart</a> that lets readers first compare deaths, and then compare durations.</p>
+<p><a class="asset-img-link" href="https://junkcharts.typepad.com/.a/6a00d8341e992c53ef026bde89142d200c-pi" style="display: inline;"><img alt="Redo_natgeo_pandemichistory" class="asset  asset-image at-xid-6a00d8341e992c53ef026bde89142d200c img-responsive" src="https://junkcharts.typepad.com/.a/6a00d8341e992c53ef026bde89142d200c-450wi" style="width: 420px;" title="Redo_natgeo_pandemichistory" /></a></p>
+<p>In the meantime, I highly recommend the NatGeo <a href="https://www.nationalgeographic.com/magazine/2020/08/how-devastating-pandemics-change-us-feature/" title="Link to National Geographic">article</a>.</p>
+			</div>
+			
+
+			
+
+
+
+
+
+<hr />
+
+
+<div class="entry-footer">
+          <p class="entry-footer-info font-entryfooter"><span class="post-footers">Posted on Aug 12, 2020 at 09:09 AM</span> <span class="separator">|</span> <a class="permalink" href="https://junkcharts.typepad.com/junk_charts/2020/08/ask-how-you-can-give.html">Permalink</a>
+
+ 
+	<span class="separator"> | </span>
+	
+			 <a class="entry-comments" href="https://junkcharts.typepad.com/junk_charts/2020/08/ask-how-you-can-give.html#comments">Comments (3)</a>
+	
+
+
+          </p>
+
+
+          <!-- technorati tags -->
+
+
+
+          <!-- post footer links -->
+	<p class="entry-footer-share entry-footer-share-buttons">
+		<span class="entry-footer-links-twitter">
+     <a href="https://twitter.com/share?url=https%3A%2F%2Fbit.ly%2F2Fcwzcd&text=Ask%20how%20you%20can%20give" target="_blank"><i class="icon fab fa-twitter"></i></a>
+</span> <span class="separator">|</span> <span class="entry-footer-links-pinterest">
+     <a href="javascript:void((function()%7Bvar%20e=document.createElement('script');e.setAttribute('type','text/javascript');e.setAttribute('charset','UTF-8');e.setAttribute('src','https://assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);document.body.appendChild(e)%7D)());"><i class="icon fab fa-pinterest"></i></a>
+
+</span> <span class="separator">|</span> <span class="entry-footer-links-facebook_like">
+     
+     <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fjunkcharts.typepad.com%2Fjunk_charts%2F2020%2F08%2Fask-how-you-can-give.html" target="_blank"><i class="icon fab fa-facebook"></i></a>
+     
+</span>
+	</p>
+
+
+</div>
+
+
+</article>
+ 
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+<!-- entry shared -->
+
+<article class="post entry">
+
+
+
+<!-- DISPLAY FULL POSTS-->
+
+     
+
+       <h2 class="entry-header font-entryheader">
+           
+        <span class="entry-title">
+<a href="https://junkcharts.typepad.com/junk_charts/2020/08/how-many-details-to-include-in-a-chart.html">How many details to include in a chart</a>
+        </span>
+       </h2>
+
+
+
+       <h5 class="date-header font-dateheader">
+           <span class="entry-date"><a href="https://junkcharts.typepad.com/junk_charts/2020/08/how-many-details-to-include-in-a-chart.html">Aug 04, 2020</a></span>
+       </h5>
+
+
+
+			<div class="entry-body font-entrybody">
+				<p>This graphic by Bloomberg provides the context for understanding the severity of the Atlantic storm season. (<a href="https://www.bloomberg.com/graphics/2020-hurricanes/" title="Link to Bloomberg">link</a>)</p>
+<p><a class="asset-img-link" href="https://junkcharts.typepad.com/.a/6a00d8341e992c53ef0263e95a1bbb200b-pi" style="display: inline;"><img alt="Bloomberg_2020storms_vertical" class="asset  asset-image at-xid-6a00d8341e992c53ef0263e95a1bbb200b img-responsive" src="https://junkcharts.typepad.com/.a/6a00d8341e992c53ef0263e95a1bbb200b-350wi" style="width: 350px;" title="Bloomberg_2020storms_vertical" /></a></p>
+<p>At this point of the season, 2020 appears to be one of the most severe in history.</p>
+<p>I was momentarily fascinated by a feature of modern browser-based data visualization: the death of the aspect ratio. When the browser window is stretched sufficiently wide, the chart above is transformed to this look:</p>
+<p><a class="asset-img-link" href="https://junkcharts.typepad.com/.a/6a00d8341e992c53ef0263e95a1c01200b-pi" style="display: inline;"><img alt="Bloomberg_2020storms_horizontal" class="asset  asset-image at-xid-6a00d8341e992c53ef0263e95a1c01200b img-responsive" src="https://junkcharts.typepad.com/.a/6a00d8341e992c53ef0263e95a1c01200b-450wi" style="width: 450px;" title="Bloomberg_2020storms_horizontal" /></a></p>
+<p>The chart designer has lost control of the aspect ratio.</p>
+<p>***</p>
+<p>This Bloomberg chart is an example of the spaghetti-style plots that convey <a href="https://junkcharts.typepad.com/junk_charts/variance" title="Posts about variability">variability</a> by displaying individual units of data (here, storm years). The envelope of the growth curves gives the range of historical counts while the density of curves roughly offers some sense of the most likely counts at different points of the season.</p>
+<p>But these spaghetti-style plots are not precise at conveying the variability because the density is hard to gauge. That&#39;s where <a href="https://junkcharts.typepad.com/junk_charts/aggregation" title="Posts about aggregation">aggregating</a> the individual units helps.</p>
+<p>The following chart does not show individual storm years. It shows the counts for the median season at selected points in time, and also a band of variability (for example, you&#39;d include say 90 or 95% of the seasons).</p>
+<p><a class="asset-img-link" href="https://junkcharts.typepad.com/.a/6a00d8341e992c53ef0264e2ec5c19200d-pi" style="display: inline;"><img alt="Redo_bloomberg_2020storms" class="asset  asset-image at-xid-6a00d8341e992c53ef0264e2ec5c19200d img-responsive" src="https://junkcharts.typepad.com/.a/6a00d8341e992c53ef0264e2ec5c19200d-350wi" style="width: 350px;" title="Redo_bloomberg_2020storms" /></a></p>
+<p>I don&#39;t have the raw data so the aggregating is done by eyeballing the spaghetti.</p>
+<p>I prefer this presentation even though it does not plot every single data point one has in the dataset.</p>
+<p>&#0160;</p>
+<p>&#0160;</p>
+			</div>
+			
+
+			
+
+
+
+
+
+<hr />
+
+
+<div class="entry-footer">
+          <p class="entry-footer-info font-entryfooter"><span class="post-footers">Posted on Aug 04, 2020 at 01:00 PM</span> <span class="separator">|</span> <a class="permalink" href="https://junkcharts.typepad.com/junk_charts/2020/08/how-many-details-to-include-in-a-chart.html">Permalink</a>
+
+ 
+	<span class="separator"> | </span>
+	
+			 <a class="entry-comments" href="https://junkcharts.typepad.com/junk_charts/2020/08/how-many-details-to-include-in-a-chart.html#comments">Comments (0)</a>
+	
+
+
+          </p>
+
+
+          <!-- technorati tags -->
+
+
+
+          <!-- post footer links -->
+	<p class="entry-footer-share entry-footer-share-buttons">
+		<span class="entry-footer-links-twitter">
+     <a href="https://twitter.com/share?url=https%3A%2F%2Fbit.ly%2F3i83U6k&text=How%20many%20details%20to%20include%20in%20a%20chart" target="_blank"><i class="icon fab fa-twitter"></i></a>
+</span> <span class="separator">|</span> <span class="entry-footer-links-pinterest">
+     <a href="javascript:void((function()%7Bvar%20e=document.createElement('script');e.setAttribute('type','text/javascript');e.setAttribute('charset','UTF-8');e.setAttribute('src','https://assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);document.body.appendChild(e)%7D)());"><i class="icon fab fa-pinterest"></i></a>
+
+</span> <span class="separator">|</span> <span class="entry-footer-links-facebook_like">
+     
+     <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fjunkcharts.typepad.com%2Fjunk_charts%2F2020%2F08%2Fhow-many-details-to-include-in-a-chart.html" target="_blank"><i class="icon fab fa-facebook"></i></a>
+     
+</span>
+	</p>
+
+
+</div>
+
+
+</article>
+ 
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+<!-- entry shared -->
+
+<article class="post entry">
+
+
+
+<!-- DISPLAY FULL POSTS-->
+
+     
+
+       <h2 class="entry-header font-entryheader">
+           
+        <span class="entry-title">
+<a href="https://junkcharts.typepad.com/junk_charts/2020/07/everything-in-texas-is-big-but-not-this-big.html">Everything in Texas is big, but not this BIG</a>
+        </span>
+       </h2>
+
+
+
+       <h5 class="date-header font-dateheader">
+           <span class="entry-date"><a href="https://junkcharts.typepad.com/junk_charts/2020/07/everything-in-texas-is-big-but-not-this-big.html">Jul 27, 2020</a></span>
+       </h5>
+
+
+
+			<div class="entry-body font-entrybody">
+				<p>Long-time reader John forwarded the following chart via Twitter.</p>
+<p><a class="asset-img-link" href="https://junkcharts.typepad.com/.a/6a00d8341e992c53ef0263e9581821200b-pi" style="display: inline;"><img alt="Covidtracking_texassquare" class="asset  asset-image at-xid-6a00d8341e992c53ef0263e9581821200b img-responsive" src="https://junkcharts.typepad.com/.a/6a00d8341e992c53ef0263e9581821200b-350wi" style="width: 350px;" title="Covidtracking_texassquare" /></a></p>
+<p>The chart shows the recent explosive growth in deaths due to Covid-19 in Texas. John flagged this graphic as yet another example in which the data are encoded to the lengths of the squares, not their areas.</p>
+<p>Fixing this chart just requires fixing the length of one side of the square. I also flipped it to make a conventional <a href="https://junkcharts.typepad.com/junk_charts/bar_chart" title="Posts about column charts">column chart</a>. </p>
+<p><a class="asset-img-link" href="https://junkcharts.typepad.com/.a/6a00d8341e992c53ef0263e9581879200b-pi" style="display: inline;"><img alt="Redo_texasdeathsquares_process" class="asset  asset-image at-xid-6a00d8341e992c53ef0263e9581879200b img-responsive" src="https://junkcharts.typepad.com/.a/6a00d8341e992c53ef0263e9581879200b-350wi" style="width: 350px;" title="Redo_texasdeathsquares_process" /></a></p>
+<p>The final product:</p>
+<p><a class="asset-img-link" href="https://junkcharts.typepad.com/.a/6a00d8341e992c53ef0263e9581883200b-pi" style="display: inline;"><img alt="Redo_texasdeaths_columns" class="asset  asset-image at-xid-6a00d8341e992c53ef0263e9581883200b img-responsive" src="https://junkcharts.typepad.com/.a/6a00d8341e992c53ef0263e9581883200b-350wi" style="width: 350px;" title="Redo_texasdeaths_columns" /></a></p>
+<p>An important qualification lurks in the footnote; it is directly applied to the label of July.</p>
+<p>How much visual distortion is created when data are encoded to the lengths and not the areas? The following chart shows what readers see, assuming they correctly perceive the areas of those squares. The value for March is held the same as above while the other months show the death counts implied by the relative areas of the squares.</p>
+<p><a class="asset-img-link" href="https://junkcharts.typepad.com/.a/6a00d8341e992c53ef0264e2ea502f200d-pi" style="display: inline;"><img alt="Redo_texasdeaths_distortion" class="asset  asset-image at-xid-6a00d8341e992c53ef0264e2ea502f200d img-responsive" src="https://junkcharts.typepad.com/.a/6a00d8341e992c53ef0264e2ea502f200d-350wi" style="width: 350px;" title="Redo_texasdeaths_distortion" /></a></p>
+<p>Owing to squaring, the smaller counts are artificially compressed while the big numbers are massively exaggerated.</p>
+			</div>
+			
+
+			
+
+
+
+
+
+<hr />
+
+
+<div class="entry-footer">
+          <p class="entry-footer-info font-entryfooter"><span class="post-footers">Posted on Jul 27, 2020 at 09:10 AM</span> <span class="separator">|</span> <a class="permalink" href="https://junkcharts.typepad.com/junk_charts/2020/07/everything-in-texas-is-big-but-not-this-big.html">Permalink</a>
+
+ 
+	<span class="separator"> | </span>
+	
+			 <a class="entry-comments" href="https://junkcharts.typepad.com/junk_charts/2020/07/everything-in-texas-is-big-but-not-this-big.html#comments">Comments (0)</a>
+	
+
+
+          </p>
+
+
+          <!-- technorati tags -->
+
+
+
+          <!-- post footer links -->
+	<p class="entry-footer-share entry-footer-share-buttons">
+		<span class="entry-footer-links-twitter">
+     <a href="https://twitter.com/share?url=https%3A%2F%2Fbit.ly%2F3fZPLaK&text=Everything%20in%20Texas%20is%20big%2C%20but%20not%20this%20BIG" target="_blank"><i class="icon fab fa-twitter"></i></a>
+</span> <span class="separator">|</span> <span class="entry-footer-links-pinterest">
+     <a href="javascript:void((function()%7Bvar%20e=document.createElement('script');e.setAttribute('type','text/javascript');e.setAttribute('charset','UTF-8');e.setAttribute('src','https://assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);document.body.appendChild(e)%7D)());"><i class="icon fab fa-pinterest"></i></a>
+
+</span> <span class="separator">|</span> <span class="entry-footer-links-facebook_like">
+     
+     <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fjunkcharts.typepad.com%2Fjunk_charts%2F2020%2F07%2Feverything-in-texas-is-big-but-not-this-big.html" target="_blank"><i class="icon fab fa-facebook"></i></a>
+     
+</span>
+	</p>
+
+
+</div>
+
+
+</article>
+ 
+
+
+
+
+
+
+
+
+
+       
+       
+       <div class="pager-bottom pager-entries pager content-nav">
+                <div class="pager-inner">
+                        
+
+                        
+                        <a href="https://junkcharts.typepad.com/junk_charts/page/2/">
+                        <span class="pager-right">
+                        <span class="pager-label">Older</span>
+                        <i class="fas fa-arrow-circle-right"></i> 
+                        </span></a>
+                        
+                </div>
+        </div>
+        
+        
+ 
+
+
+                    </div></div>
+
+                </div>
+
+                <div class="col-sm-4 col-md-3" id="sidebar1">
+
+                    <aside class="widgets">
+                      <div class="widgets-inner">
+
+
+<!-- sidebar1 -->
+
+
+<!-- list_inlcude.tt  -->
+<div id="search" class="module-typelist module">
+<h2 class="module-header">Search</h2>
+	<div class="typelist-plain module-content">
+		<ul class="module-list">
+							<li class="module-list-item"><div class="typelist-note"><form method="get" action="https://www.google.com/search" target="_blank">
+
+<table border="0" cellpadding="0">
+<tr><td align="center" style="font-size:75%">
+<input type="text" name="q" size="15"
+ maxlength="100" value="" />
+<input type="submit" value="Google" /></td></tr>
+<tr><td align="center" style="font-size:75%">
+<input type="checkbox"  name="sitesearch"
+ value="junkcharts.typepad.com" checked /> only in Junk Charts<br />
+</td></tr></table>
+
+</form></div></li>
+			
+		</ul><!-- last /ul -->
+	</div>
+</div>
+<!-- end list_include.tt -->
+
+	<div class="module-archives module">
+		<h2 class="module-header">Recent Posts</h2>
+		<div class="module-content">
+			<ul class="module-list">
+				
+									<li class="module-list-item"><a href="https://junkcharts.typepad.com/junk_charts/2020/08/deaths-as-percent-neither-of-cases-nor-of-population-deaths-as-percent-of-normal.html">Deaths as percent neither of cases nor of population. Deaths as percent of normal.</a></li>
+					
+				
+									<li class="module-list-item"><a href="https://junkcharts.typepad.com/junk_charts/2020/08/ask-how-you-can-give.html">Ask how you can give</a></li>
+					
+				
+									<li class="module-list-item"><a href="https://junkcharts.typepad.com/junk_charts/2020/08/how-many-details-to-include-in-a-chart.html">How many details to include in a chart</a></li>
+					
+				
+									<li class="module-list-item"><a href="https://junkcharts.typepad.com/junk_charts/2020/07/everything-in-texas-is-big-but-not-this-big.html">Everything in Texas is big, but not this BIG</a></li>
+					
+				
+									<li class="module-list-item"><a href="https://junkcharts.typepad.com/junk_charts/2020/07/on-data-volume-reliability-uncertainty-and-confidence-bands.html">On data volume, reliability, uncertainty and confidence bands</a></li>
+					
+				
+									<li class="module-list-item"><a href="https://junkcharts.typepad.com/junk_charts/2020/07/this-chart-shows-why-the-pr-agency-for-the-uk-government-deserves-a-covid19-bonus.html">This chart shows why the PR agency for the UK government deserves a Covid-19 bonus</a></li>
+					
+				
+									<li class="module-list-item"><a href="https://junkcharts.typepad.com/junk_charts/2020/07/working-with-multiple-dimensions-example-from-germany.html">Working with multiple dimensions, an example from Germany</a></li>
+					
+				
+									<li class="module-list-item"><a href="https://junkcharts.typepad.com/junk_charts/2020/07/cornell-must-remove-the-logs-before-it-reopens-in-the-fall.html">Cornell must remove the logs before it reopens the campus in the fall</a></li>
+					
+				
+									<li class="module-list-item"><a href="https://junkcharts.typepad.com/junk_charts/2020/06/the-discontent-of-circular-designs.html">The discontent of circular designs</a></li>
+					
+				
+									<li class="module-list-item"><a href="https://junkcharts.typepad.com/junk_charts/2020/06/presented-without-comment.html">Presented without comment</a></li>
+					
+				
+			</ul>
+		</div>
+	</div>
+
+<div class="module-recent-comments module">
+	<h2 class="module-header">Recent Comments</h2>
+	<div class="module-content">
+		<ul class="module-list">
+			<li class="module-list-item">
+				<a href="https://junkcharts.typepad.com/junk_charts/2020/08/deaths-as-percent-neither-of-cases-nor-of-population-deaths-as-percent-of-normal.html?cid=6a00d8341e992c53ef0263e95f086c200b#comment-6a00d8341e992c53ef0263e95f086c200b">Kaiser</a> on <a href="https://junkcharts.typepad.com/junk_charts/2020/08/deaths-as-percent-neither-of-cases-nor-of-population-deaths-as-percent-of-normal.html">Deaths as percent neither of cases nor of population. Deaths as percent of normal.</a>
+			</li>
+			<li class="module-list-item">
+				<a href="https://junkcharts.typepad.com/junk_charts/2020/08/deaths-as-percent-neither-of-cases-nor-of-population-deaths-as-percent-of-normal.html?cid=6a00d8341e992c53ef026be40a92f8200d#comment-6a00d8341e992c53ef026be40a92f8200d">Rolf</a> on <a href="https://junkcharts.typepad.com/junk_charts/2020/08/deaths-as-percent-neither-of-cases-nor-of-population-deaths-as-percent-of-normal.html">Deaths as percent neither of cases nor of population. Deaths as percent of normal.</a>
+			</li>
+			<li class="module-list-item">
+				<a href="https://junkcharts.typepad.com/junk_charts/2020/08/deaths-as-percent-neither-of-cases-nor-of-population-deaths-as-percent-of-normal.html?cid=6a00d8341e992c53ef026bde8b99e1200c#comment-6a00d8341e992c53ef026bde8b99e1200c">Kaiser</a> on <a href="https://junkcharts.typepad.com/junk_charts/2020/08/deaths-as-percent-neither-of-cases-nor-of-population-deaths-as-percent-of-normal.html">Deaths as percent neither of cases nor of population. Deaths as percent of normal.</a>
+			</li>
+			<li class="module-list-item">
+				<a href="https://junkcharts.typepad.com/junk_charts/2020/08/deaths-as-percent-neither-of-cases-nor-of-population-deaths-as-percent-of-normal.html?cid=6a00d8341e992c53ef026be409e3cb200d#comment-6a00d8341e992c53ef026be409e3cb200d">Joseph Severs</a> on <a href="https://junkcharts.typepad.com/junk_charts/2020/08/deaths-as-percent-neither-of-cases-nor-of-population-deaths-as-percent-of-normal.html">Deaths as percent neither of cases nor of population. Deaths as percent of normal.</a>
+			</li>
+			<li class="module-list-item">
+				<a href="https://junkcharts.typepad.com/junk_charts/2020/08/deaths-as-percent-neither-of-cases-nor-of-population-deaths-as-percent-of-normal.html?cid=6a00d8341e992c53ef026be409bb0a200d#comment-6a00d8341e992c53ef026be409bb0a200d">Kaiser</a> on <a href="https://junkcharts.typepad.com/junk_charts/2020/08/deaths-as-percent-neither-of-cases-nor-of-population-deaths-as-percent-of-normal.html">Deaths as percent neither of cases nor of population. Deaths as percent of normal.</a>
+			</li>
+			<li class="module-list-item">
+				<a href="https://junkcharts.typepad.com/junk_charts/2020/08/deaths-as-percent-neither-of-cases-nor-of-population-deaths-as-percent-of-normal.html?cid=6a00d8341e992c53ef026be409b6ba200d#comment-6a00d8341e992c53ef026be409b6ba200d">Mats</a> on <a href="https://junkcharts.typepad.com/junk_charts/2020/08/deaths-as-percent-neither-of-cases-nor-of-population-deaths-as-percent-of-normal.html">Deaths as percent neither of cases nor of population. Deaths as percent of normal.</a>
+			</li>
+			<li class="module-list-item">
+				<a href="https://junkcharts.typepad.com/junk_charts/2020/08/ask-how-you-can-give.html?cid=6a00d8341e992c53ef026be4093d2c200d#comment-6a00d8341e992c53ef026be4093d2c200d">Kaiser</a> on <a href="https://junkcharts.typepad.com/junk_charts/2020/08/ask-how-you-can-give.html">Ask how you can give</a>
+			</li>
+			<li class="module-list-item">
+				<a href="https://junkcharts.typepad.com/junk_charts/2020/08/ask-how-you-can-give.html?cid=6a00d8341e992c53ef0263e95c9400200b#comment-6a00d8341e992c53ef0263e95c9400200b"> Mat</a> on <a href="https://junkcharts.typepad.com/junk_charts/2020/08/ask-how-you-can-give.html">Ask how you can give</a>
+			</li>
+			<li class="module-list-item">
+				<a href="https://junkcharts.typepad.com/junk_charts/2020/08/ask-how-you-can-give.html?cid=6a00d8341e992c53ef0263e95c4195200b#comment-6a00d8341e992c53ef0263e95c4195200b">Conchis</a> on <a href="https://junkcharts.typepad.com/junk_charts/2020/08/ask-how-you-can-give.html">Ask how you can give</a>
+			</li>
+			<li class="module-list-item">
+				<a href="https://junkcharts.typepad.com/junk_charts/2020/07/this-chart-shows-why-the-pr-agency-for-the-uk-government-deserves-a-covid19-bonus.html?cid=6a00d8341e992c53ef0263ec2b0291200c#comment-6a00d8341e992c53ef0263ec2b0291200c">Mike</a> on <a href="https://junkcharts.typepad.com/junk_charts/2020/07/this-chart-shows-why-the-pr-agency-for-the-uk-government-deserves-a-covid19-bonus.html">This chart shows why the PR agency for the UK government deserves a Covid-19 bonus</a>
+			</li>
+		</ul>
+	</div>
+</div>
+<div class="module-category-cloud module">
+	<h2 class="module-header"><a href="https://junkcharts.typepad.com/junk_charts/archives.html">Categories</a></h2>
+	<div class="module-content">
+		<ul class="module-list">
+			<li class="module-list-item cloud-weight-2"><a href="https://junkcharts.typepad.com/junk_charts/advertising/">Advertising</a></li>
+			<li class="module-list-item cloud-weight-5"><a href="https://junkcharts.typepad.com/junk_charts/aggregation/">Aggregation</a></li>
+			<li class="module-list-item cloud-weight-2"><a href="https://junkcharts.typepad.com/junk_charts/animation/">Animation</a></li>
+			<li class="module-list-item cloud-weight-3"><a href="https://junkcharts.typepad.com/junk_charts/area-chart/">Area chart</a></li>
+			<li class="module-list-item cloud-weight-2"><a href="https://junkcharts.typepad.com/junk_charts/art/">Art</a></li>
+			<li class="module-list-item cloud-weight-6"><a href="https://junkcharts.typepad.com/junk_charts/axis/">Axis</a></li>
+			<li class="module-list-item cloud-weight-2"><a href="https://junkcharts.typepad.com/junk_charts/background/">Background</a></li>
+			<li class="module-list-item cloud-weight-10"><a href="https://junkcharts.typepad.com/junk_charts/bar_chart/">Bar chart</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="https://junkcharts.typepad.com/junk_charts/bar-density-plot/">bar-density plot</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="https://junkcharts.typepad.com/junk_charts/bloomberg/">Bloomberg</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="https://junkcharts.typepad.com/junk_charts/book/">Book</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="https://junkcharts.typepad.com/junk_charts/book-blog/">Book blog</a></li>
+			<li class="module-list-item cloud-weight-2"><a href="https://junkcharts.typepad.com/junk_charts/books/">Books</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="https://junkcharts.typepad.com/junk_charts/boxplot/">Boxplot</a></li>
+			<li class="module-list-item cloud-weight-3"><a href="https://junkcharts.typepad.com/junk_charts/bubble_chart/">Bubble chart</a></li>
+			<li class="module-list-item cloud-weight-2"><a href="https://junkcharts.typepad.com/junk_charts/bumps_chart/">Bumps chart</a></li>
+			<li class="module-list-item cloud-weight-9"><a href="https://junkcharts.typepad.com/junk_charts/business/">Business</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="https://junkcharts.typepad.com/junk_charts/business_week/">Business Week</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="https://junkcharts.typepad.com/junk_charts/cambridge/">Cambridge</a></li>
+			<li class="module-list-item cloud-weight-3"><a href="https://junkcharts.typepad.com/junk_charts/clustering/">Clustering</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="https://junkcharts.typepad.com/junk_charts/cnn/">CNN</a></li>
+			<li class="module-list-item cloud-weight-10"><a href="https://junkcharts.typepad.com/junk_charts/color/">Color</a></li>
+			<li class="module-list-item cloud-weight-6"><a href="https://junkcharts.typepad.com/junk_charts/comparability/">Comparability</a></li>
+			<li class="module-list-item cloud-weight-2"><a href="https://junkcharts.typepad.com/junk_charts/composition/">Composition</a></li>
+			<li class="module-list-item cloud-weight-2"><a href="https://junkcharts.typepad.com/junk_charts/compound_plots/">Compound plots</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="https://junkcharts.typepad.com/junk_charts/convention/">Convention</a></li>
+			<li class="module-list-item cloud-weight-2"><a href="https://junkcharts.typepad.com/junk_charts/covid-19/">covid-19</a></li>
+			<li class="module-list-item cloud-weight-2"><a href="https://junkcharts.typepad.com/junk_charts/craft/">Craft</a></li>
+			<li class="module-list-item cloud-weight-2"><a href="https://junkcharts.typepad.com/junk_charts/crime/">Crime</a></li>
+			<li class="module-list-item cloud-weight-9"><a href="https://junkcharts.typepad.com/junk_charts/current_affairs/">Current Affairs</a></li>
+			<li class="module-list-item cloud-weight-4"><a href="https://junkcharts.typepad.com/junk_charts/data/">Data</a></li>
+			<li class="module-list-item cloud-weight-5"><a href="https://junkcharts.typepad.com/junk_charts/data_labels/">Data labels</a></li>
+			<li class="module-list-item cloud-weight-3"><a href="https://junkcharts.typepad.com/junk_charts/design/">Design</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="https://junkcharts.typepad.com/junk_charts/donut_chart/">Donut chart</a></li>
+			<li class="module-list-item cloud-weight-4"><a href="https://junkcharts.typepad.com/junk_charts/dot_plot/">Dot plot</a></li>
+			<li class="module-list-item cloud-weight-8"><a href="https://junkcharts.typepad.com/junk_charts/economics/">Economics</a></li>
+			<li class="module-list-item cloud-weight-2"><a href="https://junkcharts.typepad.com/junk_charts/economist/">Economist</a></li>
+			<li class="module-list-item cloud-weight-3"><a href="https://junkcharts.typepad.com/junk_charts/education/">Education</a></li>
+			<li class="module-list-item cloud-weight-3"><a href="https://junkcharts.typepad.com/junk_charts/environment/">Environment</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="https://junkcharts.typepad.com/junk_charts/event/">Event</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="https://junkcharts.typepad.com/junk_charts/film/">Film</a></li>
+			<li class="module-list-item cloud-weight-5"><a href="https://junkcharts.typepad.com/junk_charts/finance/">Finance</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="https://junkcharts.typepad.com/junk_charts/flow_chart/">Flow chart</a></li>
+			<li class="module-list-item cloud-weight-2"><a href="https://junkcharts.typepad.com/junk_charts/food_and_drink/">Food and Drink</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="https://junkcharts.typepad.com/junk_charts/ft/">FT</a></li>
+			<li class="module-list-item cloud-weight-3"><a href="https://junkcharts.typepad.com/junk_charts/gridlines/">Gridlines</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="https://junkcharts.typepad.com/junk_charts/heatmap/">Heatmap</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="https://junkcharts.typepad.com/junk_charts/hierarchy/">Hierarchy</a></li>
+			<li class="module-list-item cloud-weight-3"><a href="https://junkcharts.typepad.com/junk_charts/infographics/">Infographics</a></li>
+			<li class="module-list-item cloud-weight-3"><a href="https://junkcharts.typepad.com/junk_charts/interactive/">Interactive</a></li>
+			<li class="module-list-item cloud-weight-3"><a href="https://junkcharts.typepad.com/junk_charts/legend/">Legend</a></li>
+			<li class="module-list-item cloud-weight-3"><a href="https://junkcharts.typepad.com/junk_charts/light_entertainment/">Light entertainment</a></li>
+			<li class="module-list-item cloud-weight-9"><a href="https://junkcharts.typepad.com/junk_charts/line_chart/">Line chart</a></li>
+			<li class="module-list-item cloud-weight-3"><a href="https://junkcharts.typepad.com/junk_charts/living/">Living</a></li>
+			<li class="module-list-item cloud-weight-5"><a href="https://junkcharts.typepad.com/junk_charts/map/">Map</a></li>
+			<li class="module-list-item cloud-weight-3"><a href="https://junkcharts.typepad.com/junk_charts/medicine/">Medicine</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="https://junkcharts.typepad.com/junk_charts/music/">Music</a></li>
+			<li class="module-list-item cloud-weight-6"><a href="https://junkcharts.typepad.com/junk_charts/nyt/">NYT</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="https://junkcharts.typepad.com/junk_charts/nyu/">NYU</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="https://junkcharts.typepad.com/junk_charts/open-call/">Open call</a></li>
+			<li class="module-list-item cloud-weight-2"><a href="https://junkcharts.typepad.com/junk_charts/outlier/">Outlier</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="https://junkcharts.typepad.com/junk_charts/people/">People</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="https://junkcharts.typepad.com/junk_charts/personal/">Personal</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="https://junkcharts.typepad.com/junk_charts/pictogram/">Pictogram</a></li>
+			<li class="module-list-item cloud-weight-4"><a href="https://junkcharts.typepad.com/junk_charts/pie_chart/">Pie chart</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="https://junkcharts.typepad.com/junk_charts/pie-density-plot/">pie-density plot</a></li>
+			<li class="module-list-item cloud-weight-4"><a href="https://junkcharts.typepad.com/junk_charts/politics/">Politics</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="https://junkcharts.typepad.com/junk_charts/press/">Press</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="https://junkcharts.typepad.com/junk_charts/principal-analytics-prep/">Principal Analytics Prep</a></li>
+			<li class="module-list-item cloud-weight-2"><a href="https://junkcharts.typepad.com/junk_charts/profile_chart/">Profile chart</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="https://junkcharts.typepad.com/junk_charts/randomness/">Randomness</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="https://junkcharts.typepad.com/junk_charts/recognition/">Recognition</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="https://junkcharts.typepad.com/junk_charts/religion/">Religion</a></li>
+			<li class="module-list-item cloud-weight-6"><a href="https://junkcharts.typepad.com/junk_charts/scale/">Scale</a></li>
+			<li class="module-list-item cloud-weight-4"><a href="https://junkcharts.typepad.com/junk_charts/scatter_plot/">Scatter plot</a></li>
+			<li class="module-list-item cloud-weight-4"><a href="https://junkcharts.typepad.com/junk_charts/science/">Science</a></li>
+			<li class="module-list-item cloud-weight-2"><a href="https://junkcharts.typepad.com/junk_charts/selection/">Selection</a></li>
+			<li class="module-list-item cloud-weight-4"><a href="https://junkcharts.typepad.com/junk_charts/simplicity/">Simplicity</a></li>
+			<li class="module-list-item cloud-weight-5"><a href="https://junkcharts.typepad.com/junk_charts/small_multiples/">Small multiples</a></li>
+			<li class="module-list-item cloud-weight-2"><a href="https://junkcharts.typepad.com/junk_charts/software/">Software</a></li>
+			<li class="module-list-item cloud-weight-5"><a href="https://junkcharts.typepad.com/junk_charts/sorting/">Sorting</a></li>
+			<li class="module-list-item cloud-weight-3"><a href="https://junkcharts.typepad.com/junk_charts/specialty_plots/">Specialty plots</a></li>
+			<li class="module-list-item cloud-weight-3"><a href="https://junkcharts.typepad.com/junk_charts/sports/">Sports</a></li>
+			<li class="module-list-item cloud-weight-6"><a href="https://junkcharts.typepad.com/junk_charts/statistics/">Statistics</a></li>
+			<li class="module-list-item cloud-weight-3"><a href="https://junkcharts.typepad.com/junk_charts/sufficiency/">Sufficiency</a></li>
+			<li class="module-list-item cloud-weight-2"><a href="https://junkcharts.typepad.com/junk_charts/superimposed/">Superimposed</a></li>
+			<li class="module-list-item cloud-weight-2"><a href="https://junkcharts.typepad.com/junk_charts/table/">Table</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="https://junkcharts.typepad.com/junk_charts/tech_review/">Tech Review</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="https://junkcharts.typepad.com/junk_charts/television/">Television</a></li>
+			<li class="module-list-item cloud-weight-3"><a href="https://junkcharts.typepad.com/junk_charts/text/">Text</a></li>
+			<li class="module-list-item cloud-weight-10"><a href="https://junkcharts.typepad.com/junk_charts/time_series/">Time series</a></li>
+			<li class="module-list-item cloud-weight-2"><a href="https://junkcharts.typepad.com/junk_charts/tools/">Tools</a></li>
+			<li class="module-list-item cloud-weight-2"><a href="https://junkcharts.typepad.com/junk_charts/travel/">Travel</a></li>
+			<li class="module-list-item cloud-weight-4"><a href="https://junkcharts.typepad.com/junk_charts/trifecta-checkup/">Trifecta checkup</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="https://junkcharts.typepad.com/junk_charts/united-kingdom/">United Kingdom</a></li>
+			<li class="module-list-item cloud-weight-6"><a href="https://junkcharts.typepad.com/junk_charts/variance/">Variance</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="https://junkcharts.typepad.com/junk_charts/washington-post/">Washington Post</a></li>
+			<li class="module-list-item cloud-weight-5"><a href="https://junkcharts.typepad.com/junk_charts/webtech/">Web/Tech</a></li>
+			<li class="module-list-item cloud-weight-7"><a href="https://junkcharts.typepad.com/junk_charts/weblogs/">Weblogs</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="https://junkcharts.typepad.com/junk_charts/wikipedia/">Wikipedia</a></li>
+			<li class="module-list-item cloud-weight-1"><a href="https://junkcharts.typepad.com/junk_charts/wired/">Wired</a></li>
+			<li class="module-list-item cloud-weight-2"><a href="https://junkcharts.typepad.com/junk_charts/wsj/">WSJ</a></li>
+		</ul>
+	</div>
+</div>
+	<div class="module-archives module">
+		<h2 class="module-header"><a href="https://junkcharts.typepad.com/junk_charts/archives.html">Archives</a></h2>
+		<div class="module-content">
+												<ul class="module-list">
+				
+				<li class="module-list-item"><a href="https://junkcharts.typepad.com/junk_charts/2020/08/index.html">August 2020</a></li>
+				
+							
+				<li class="module-list-item"><a href="https://junkcharts.typepad.com/junk_charts/2020/07/index.html">July 2020</a></li>
+				
+							
+				<li class="module-list-item"><a href="https://junkcharts.typepad.com/junk_charts/2020/06/index.html">June 2020</a></li>
+				
+							
+				<li class="module-list-item"><a href="https://junkcharts.typepad.com/junk_charts/2020/05/index.html">May 2020</a></li>
+				
+							
+				<li class="module-list-item"><a href="https://junkcharts.typepad.com/junk_charts/2020/04/index.html">April 2020</a></li>
+				
+							
+				<li class="module-list-item"><a href="https://junkcharts.typepad.com/junk_charts/2020/03/index.html">March 2020</a></li>
+				
+							
+				<li class="module-list-item"><a href="https://junkcharts.typepad.com/junk_charts/2020/02/index.html">February 2020</a></li>
+				
+							
+				<li class="module-list-item"><a href="https://junkcharts.typepad.com/junk_charts/2020/01/index.html">January 2020</a></li>
+				
+							
+				<li class="module-list-item"><a href="https://junkcharts.typepad.com/junk_charts/2019/12/index.html">December 2019</a></li>
+				
+							
+				<li class="module-list-item"><a href="https://junkcharts.typepad.com/junk_charts/2019/11/index.html">November 2019</a></li>
+									</ul>
+									<p class="module-more"><a href="https://junkcharts.typepad.com/junk_charts/archives.html">More...</a></p>
+				
+				
+			
+		</div>
+	</div>
+
+<!-- list_inlcude.tt  -->
+<div id="residues" class="module-typelist module">
+<h2 class="module-header">Residues</h2>
+	<div class="module-content">
+		<ul class="module-list">
+							<li class="module-list-item"><br /><script src="https://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-105989-1";
+urchinTracker();
+</script></li>
+							<li class="module-list-item"><br /><!-- Start of StatCounter Code -->
+<script type="text/javascript">
+sc_project=867023; 
+sc_invisible=1; 
+sc_partition=3; 
+sc_security="85973172"; 
+</script>
+
+<script type="text/javascript" src="https://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a href="https://www.statcounter.com/" target="_blank"><img class="statcounter" src="https://c4.statcounter.com/867023/0/85973172/1/" alt="web hit counter" ></a></div></noscript>
+<!-- End of StatCounter Code --></li>
+							<li class="module-list-item"><br /><a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/3.0/us/"><img alt="Creative Commons License" style="border-width:0" src="https://creativecommons.org/images/public/somerights20.png"/></a><br/><font size=-1.5>This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/3.0/us/">Creative Commons Attribution-Noncommercial-Share Alike 3.0 United States License</a></font></li>
+							<li class="module-list-item"><br /><script src="https://api.proofpositivemedia.com/api/init-69o0ovj4x4w81208k2.js" data-cfasync="false" async></script>
+<noscript><img src="https://api.proofpositivemedia.com/api/noscript-69o0ovj4x4w81208k2.gif"></noscript></li>
+			
+		</ul><!-- last /ul -->
+	</div>
+</div>
+<!-- end list_include.tt -->
+
+
+
+
+
+                      </div>
+                    </aside>
+
+
+                </div>
+
+                <div class="col-sm-4 col-md-3" id="sidebar2">
+
+                    <aside class="widgets">
+                      <div class="widgets-inner">
+
+<!-- sidebar2 -->
+
+
+<!-- custom_code.tt --><div class="module-custom_html module">
+    <div class="module-content">
+<font size = -1 style="line-height:150%">Kaiser Fung. Business analytics and data visualization expert. Author and Speaker.</font><br><br><font size = -1>About this <a href="https://junkcharts.typepad.com/junk_charts/2014/08/welcome.html"><strong>blog</strong></a>. Visit my <a href="https://www.kaiserfung.com"><strong>website</strong></a>. Follow my <a href="https://twitter.com/junkcharts"><strong>Twitter</strong></a>. See my articles at <a href="https://www.thedailybeast.com/whats-so-fun-about-fake-data"><strong>Daily Beast</strong></a>, <a href="https://fivethirtyeight.com/contributors/kaiser-fung/"><strong>538</strong></a>, <a href="https://hbr.org/search?term=kaiser%20fung"><strong>HBR</strong></a>.</font>
+<br><br>
+<font size = -1>See my <i><a href="https://youtube.com/c/KaiserFungPrincipalAnalyticsPrep">Youtube</a></i> and <i><a href="https://www.flickr.com/photos/kaiserfung">Flickr</a></i></font>.
+    </div>
+</div>
+<!-- end custom_code.tt -->
+<!-- custom_code.tt --><div class="module-custom_html module">
+    <div class="module-content">
+<a href="https://www.principalanalyticsprep.com?utm_source=website&utm_medium=jcblog&utm_campaign=jcblog_tprghtpermlogohme"><img src="https://junkcharts.typepad.com/pap_logo_shield_lesswhite.jpg" style="width:128px;height:128px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" alt="Link to Principal Analytics Prep"></a> <br></br><font size=2> Personalized Data Science <a href="https://www.principalanalyticsprep.com/what-principal-analytics-prep-offers/?utm_source=website&utm_medium=jcblog&utm_campaign=jcblog_tprhgtpermlnkpap"><u>Bootcamp</u></a>, prepping you for the Data Revolution.<br></br> <strong>NEW</strong> <a href="https://www.principalanalyticsprep.com/part-time-immersive/?utm_source=website&utm_medium=jcblog&utm_campaign=jcblog_tprhgtpermlnkpart">Part-Time</a> Immersive.</font>
+    </div>
+</div>
+<!-- end custom_code.tt -->
+<!-- custom_code.tt --><div class="module-custom_html module">
+    <div class="module-content">
+<a href="https://www.kaiserfung.com/data-visualization-advisor?utm_source=website&utm_medium=jcblog&utm_campaign=jcblog_tprghtpermlogo"><img src="https://junkcharts.typepad.com/kaiserfung_dataviz_advisor_makeover.png" style="width:128px;height:128px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" alt="Link to Kaiser Fung DataViz Makeover"></a> <br></br><font size=2> 
+<a href="https://www.kaiserfung.com/data-visualization-advisor?utm_source=website&utm_medium=jcblog&utm_campaign=jcblog_tprghtlnk">Kaiser gives you the hard truth and solves your dataviz challenge.</a> </font>
+    </div>
+</div>
+<!-- end custom_code.tt -->
+<!-- custom_code.tt --><div class="module-custom_html module">
+    <div class="module-content">
+<a href="https://junkcharts.typepad.com/numbersruleyourworld"><img src="https://junkcharts.typepad.com/numbersruleyourworld/numbers_buttons/globe-icon-final-glossy.png" style="width:140px;height:140px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" alt="Link to junkcharts"></a><br><font size=-2>Graphics design by <a href="mailto:cyalee@gmail.com"><u>Amanda Lee</u></a></font><br></br><font size=-1>Learn how data, algorithms, and software run our lives!</font>
+    </div>
+</div>
+<!-- end custom_code.tt -->
+<!-- custom_code.tt --><div class="module-custom_html module">
+    <div class="module-content">
+<font style="color:#18C1B7">Numbers Rule Your World</font>:<br>
+<a href="https://amzn.to/2zssjj4">Amazon</a> - 
+<a href="https://www.barnesandnoble.com/w/numbers-rule-your-world-kaiser-fung/1101077095?ean=9780071626538">Barnes&Noble</a>
+<br><br>
+<font style="color:#18C1B7">Numbersense</font>: <br>
+<a href="https://amzn.to/2DtUH8e">Amazon</a> - 
+<a href="https://www.barnesandnoble.com/w/numbersense-kaiser-fung/1113863622">Barnes&Noble</a>
+    </div>
+</div>
+<!-- end custom_code.tt -->
+<!-- list_inlcude.tt  -->
+<div id="kaiser_likes" class="module-typelist module">
+<h2 class="module-header">Kaiser Likes</h2>
+	<div class="module-content">
+		<ul class="module-list">
+							<li class="module-list-item"><a href="https://thefunctionalart.com">Alberto Cairo</a><br /></li>
+							<li class="module-list-item"><a href="https://www.stat.columbia.edu/~gelman/blog/">Andrew Gelman</a><br /></li>
+							<li class="module-list-item"><a href="https://www.stat.purdue.edu/~wsc/">Bill Cleveland</a><br /></li>
+							<li class="module-list-item"><a href="https://www.edwardtufte.com/">Edward Tufte</a><br /></li>
+							<li class="module-list-item"><a href="https://www.ft.com/ft-data">FT Data | Financial Times</a><br /></li>
+							<li class="module-list-item"><a href="https://www.guardian.co.uk/data">Guardian (UK) Datablog</a><br /></li>
+							<li class="module-list-item"><a href="https://fivethirtyeight.com">Nate Silver’s FiveThirtyEight</a><br /></li>
+							<li class="module-list-item"><a href="https://nicolasrapp.com/studio">Nicholas Rapp</a><br /></li>
+							<li class="module-list-item"><a href="https://twitter.com/nytgraphics">NY Times Graphics Team - twitter</a><br /></li>
+							<li class="module-list-item"><a href="https://eagereyes.org/">Robert Kosara: eagereyes</a><br /></li>
+							<li class="module-list-item"><a href="https://www.scmp.com/infographics">SCMP Infographics</a><br /></li>
+							<li class="module-list-item"><a href="https://graphics.wsj.com/">Wall Street Journal Graphics</a><br /></li>
+							<li class="module-list-item"><a href="https://twitter.com/PostGraphics">Washington Post Graphics - twitter</a><br /></li>
+			
+		</ul><!-- last /ul -->
+	</div>
+</div>
+<!-- end list_include.tt -->
+
+<!-- list_inlcude.tt  -->
+<div id="kaiser_also_likes" class="module-typelist module">
+<h2 class="module-header">Kaiser Also LIkes</h2>
+	<div class="module-content">
+		<ul class="module-list">
+							<li class="module-list-item"><a href="https://www.bookculture.com" target="_blank">Book Culture</a><br /></li>
+							<li class="module-list-item"><a href="https://www.bookforum.com" target="_blank">Bookforum</a><br /></li>
+							<li class="module-list-item"><a href="https://www.eataly.com/us_en/stores/nyc-flatiron/nyc-caffes/nyc-caffe-lavazza/" target="_blank">Caffè Lavazza NYC</a><br /></li>
+							<li class="module-list-item"><a href="https://www.harney.com/pages/the-soho-shop" target="_blank">Harney & Sons Fine Teas Soho</a><br /></li>
+							<li class="module-list-item"><a href="https://www.housingworks.org/locations/bookstore-cafe" target="_blank">Housing Works Bookstore</a><br /></li>
+							<li class="module-list-item"><a href="https://vanishingnewyork.blogspot.com/" target="_blank">Jeremiah's Vanishing New York</a><br /></li>
+							<li class="module-list-item"><a href="https://lovepiccolacucina.tumblr.com/" target="_blank">Piccola Cucina</a><br /></li>
+							<li class="module-list-item"><a href="https://polosudnyc.com" target="_blank">Polosud NYC Gelato</a><br /></li>
+			
+		</ul><!-- last /ul -->
+	</div>
+</div>
+<!-- end list_include.tt -->
+
+<!-- custom_code.tt --><div class="module-custom_html module">
+    <div class="module-content">
+<a href="https://junkcharts.typepad.com/junk_charts/other-graphics-blogs.html">CLICK FOR MORE GRAPHICS BLOGS</a>
+    </div>
+</div>
+<!-- end custom_code.tt -->
+
+
+
+
+                      </div>
+                    </aside>
+
+
+                </div>
+
+            </div>
+
+     
+
+
+<!-- footer -->
+<div id="footer">
+<div class="row well"><div class="col-md-12">
+        <div id="footer-inner">
+          <!-- not attag.weblog footer html -->
+                <ul class="footer-list pkg list-inline font-footer" >
+                        <li class="footer-list-item"><a href="https://junkcharts.typepad.com/numbersruleyourworld">Book Blog</a> &bull; </li>
+                        <li class="footer-list-item"><a href="https://twitter.com/junkcharts">Twitter</a> &bull; </li>
+                        <li class="footer-list-item"><a href="https://www.principalanalyticsprep.com/">Data Science Bootcamp</a> &bull; </li>
+                        <li class="footer-list-item"><a href="https://www.kaiserfung.com/">About</a> &bull; </li>
+                        <li class="last-footer-list-item footer-list-item"><a href="https://www.typepad.com/">Typepad</a></li>
+                </ul>
+        </div>
+        <a href="#top" id="toplink"><div id="footer-toplink">
+           <div id="footer-arrow"><i class="fas fa-arrow-circle-up"></i></div>
+           <div id="footer-top"><span class="footer-top-inner font-footer">Top</span></div>
+        </div></a>
+</div></div>
+</div>
+
+
+     <!-- foot-scripts -->
+          <!-- foot-scripts-1 -->
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+
+    <script src="https://static.typepad.com/.shared/themes/common/bootstrap/js/bootstrap.min.js"></script>
+
+
+
+
+
+          
+
+
+
+
+
+          <!-- foot-scripts-2 -->
+    <script src="https://static.typepad.com/.shared/js/classie.js"></script>
+    <script src="https://static.typepad.com/.shared/js/sidebarEffects.js"></script>
+    <script src="https://static.typepad.com/.shared/js/jquery.masonry.min.js"></script>
+    <script src="https://static.typepad.com/.shared/js/imagesloaded.pkgd.min.js"></script>
+    <script src="https://static.typepad.com/.shared/js/jquery.livequery.min.js"></script>
+<script>
+    var j = $.noConflict(true);
+
+
+function resizebanner() {
+    var bg = j('#banner').css('background-image');
+    if (bg) {
+        var src = bg.replace(/(^url\()|(\)$|[\"\'])/g, '');
+        var $img = j('<img>').attr('src', src).on('load', function () {
+                var img = new Image();
+                img.src = src;
+                var imgW = img.width;
+                var imgH = img.height;
+                var newW = j('#banner').width();
+                var newH = imgH / imgW * newW;
+                j('#banner').height(newH);
+                j('#banner, #banner-title, #banner-desc').css('visibility', 'visible');
+            });//end when loaded
+    }//end if bg
+}//end
+    (function($) {
+       j(document).on('ready', resizebanner);
+       j(window).on('resize', resizebanner);
+    })(jQuery);
+
+
+function check_css_size() {
+    if (j("#mysize").css("float") == "right" ){ mod_pos = 'side'; }
+    else if (j("#mysize").css("float") == "none" ){ mod_pos = 'bottom'; }
+}
+
+
+
+        // SCROLL TO TOP
+        (function($) {
+          j('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+              var target = j(this.hash);
+              target = target.length ? target : j('[name=' + this.hash.slice(1) +']');
+              if (target.length) {
+                j('html,body').animate({
+                  scrollTop: target.offset().top
+                }, 1000);
+                return false;
+              }
+            }
+          });
+        })(jQuery);
+
+        // PREV/NEXT ON IA
+        (function($) {
+        j(window).scroll(function() {
+            if (j(this).scrollTop()) {
+                j('#previous_story:hidden').stop(true, true).fadeIn();
+                j('#next_story:hidden').stop(true, true).fadeIn();
+            } else {
+                j('#previous_story').stop(true, true).fadeOut();
+                j('#next_story').stop(true, true).fadeOut();
+            }
+        });
+        })(jQuery);
+
+
+        // SLIDE-IN NAV
+        (function($) {
+        j( ".close-side-menu" ).click(function() {
+            j('#st-container').removeClass('st-menu-open');
+        });
+        })(jQuery);
+
+         //MASONRY
+              
+
+function changeCols() {
+        (function($) {
+              
+                check_css_size();
+                if(mod_pos == 'bottom') {
+                   j('.widgets-inner').addClass('bottomwidgets');
+                     
+                 } else {
+                   j('.widgets-inner').removeClass('bottomwidgets');
+                 }
+              
+        })(jQuery);
+}//function
+
+j(document).ready(function($) {
+   changeCols();
+});
+
+j(window).resize(function( event ) {
+        changeCols();
+});
+
+
+(function($) {
+  j(window).load(function(){
+        var $ctCollContainer = j('.widgets-inner');
+
+           j('.twitter-timeline').closest( ".module" ).height('300px');
+           j('.fb_iframe_widget').closest( ".module" ).height('230px');
+
+           $ctCollContainer.imagesLoaded( function(){
+              $ctCollContainer.masonry({
+                    itemSelector: '.module',
+                    "gutter": 20,
+               });
+
+               var msnry = $ctCollContainer.data('masonry');
+
+               msnry.on( 'layoutComplete', function( msnryInstance, laidOutItems ) {
+                 //console.log('Masonry layout completed on ' + laidOutItems.length + ' items');
+                    
+               });
+
+               msnry.layout();
+                $ctCollContainer.masonry('reloadItems');
+
+            });//end imagesloaded
+      });
+})(jQuery);
+
+
+
+//banner image loaded
+        (function($) {
+        bg = j('#banner').css('background-image');
+
+       if (bg && bg !='none') {
+         var src = bg.replace(/(^url\()|(\)$|[\"\'])/g, '');
+           $img = j('<img>').attr('src', src).on('load', function() {
+              j('#banner-title, #banner-desc').show();
+           });
+        } else {
+              j('#banner-title, #banner-desc').show();
+        }
+        })(jQuery);
+
+//default highlight bar from theme colors
+
+function hexToRgb(hex) {
+   var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+    r = parseInt(result[1], 16);
+    g = parseInt(result[2], 16);
+    b = parseInt(result[3], 16);
+    j('.overlay-text').css('background', 'rgba(' + r + ',' + g + ',' + b + ',0.7)');
+}
+hexToRgb("#FFFFFF");
+
+
+//nav-highlight
+(function($){
+  j('.navtext a').each(function() {
+    if (j(this).prop('pathname') == window.location.pathname) {
+      j(this).addClass('currentnav');
+    }
+  });
+})(jQuery);
+
+        </script>
+
+        </div>
+
+    </main>
+
+<div id="mysize" style="display: none"></div>
+
+<script type="text/javascript">
+<!--
+var extra_happy = Math.floor(1000000000 * Math.random());
+document.write('<img src="https://www.typepad.com/t/stats?blog_id=185069&amp;user_id=452792&amp;page=' + escape(location.href) + '&amp;referrer=' + escape(document.referrer) + '&amp;i=' + extra_happy + '" width="1" height="1" alt="" style="position: absolute; top: 0; left: 0;" />');
+// -->
+</script>
+
+
+
+<!-- Begin disqus Tag -->
+
+<!-- End disqus Tag -->
+</body>
+</html>
+
+
+
+<!-- ph=1 -->
